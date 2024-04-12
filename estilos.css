@@ -1,0 +1,118 @@
+body {
+    margin:0;
+    padding:0;
+    background: #66B9BF url('images/bg-site.png') repeat;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*
+main{  
+    background: rgb#66B9BF  url('images/bg-site.png') repeat;
+}*/
+
+header {
+    background: url('images/banner.png') no-repeat right center;
+    background-size:cover;
+    padding: 5px 0;
+    border-bottom: 1px solid #FFF;
+}
+
+header h1{  
+    color: rgb(141, 60, 46); 
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -0.1em;
+    word-spacing: 0.5e; 
+}
+
+header h2{ 
+    color: rgb(104, 130, 216);
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -0.1em;
+    word-spacing: 0.5e; 
+    
+}
+
+#img-titulo{
+    opacity: 0.9;
+}
+
+.dropdown .dropdown-menu{
+    border: 1px solid #66B9BF;  
+    background: #07889B; 
+}
+
+.dropdown-item{
+    color: #FFF;
+ 
+}
+.dropdown-item:hover{
+    color: #a12891; /*FF7F24  #07889B; */
+    background: #49b41f;   
+}
+header #logo img{
+    width: 200px;
+    height: 180px;
+    opacity: 0.8;
+}
+
+nav ul li{
+    padding: 0 3px;
+        
+}
+
+nav ul li a{
+    color: #FFF;
+}
+
+nav ul li a:hover{
+    color:#FF7F24;
+}
+
+article{
+    border-radius: 4px;
+    overflow-y:scroll;
+    max-height: 1000px;
+}
+
+article h3{
+    text-align: center;
+    color:rgb(57, 128, 194);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+article h4{   
+    text-decoration: underline;   
+    color:#FF7F24;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px 0;
+    text-align: center;
+}
+
+article i{
+    color: black;
+    font-size: 0.9em;
+}
+article p{
+    margin-bottom: 5px;
+}
+aside, .estudos{
+    background-color: #EEAA7B;
+}
+
+footer{
+    background: #07889B;
+    text-align: center;
+    color: #FFF; 
+    padding: 7px 0 2px;
+    border-top: 1px solid #FFF;           
+}
+
+.imgh3-config{
+    width: 90px;
+    height: 70px;
+    border: 2px solid #FF7F24;
+    border-radius: 2px;
+    opacity: 0.9;
+}
