@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata-Mosquito - Seja rápido ou seja picado</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+   
+</head>
+<body onresize="pegarTamJanela()">
+     <div id="_painel" class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png" >
+            <img id="v2" src="imagens/coracao_cheio.png" >
+            <img id="v3" src="imagens/coracao_cheio.png" >
+        </div>
+        <div class="cronometro">Tempo restante: <span id="crono">0</span></div>
+
+    </div>
+    <div class="menu">
+        <button id="iniciar" type="button" onclick="iniciaJogo()">Iniciar caçada</button>
+    </div>
+    
+    
+
+     <script src="scripts/jogo.js"></script>
+    
+</body>
+</html>
