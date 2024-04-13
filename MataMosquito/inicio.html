@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata-Mosquito - Seja rápido ou seja picado</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="javascript/jogo.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-3 d-flex align-self-center">
+                <div>
+                    <select name="Level" id="level">
+                        <option value="">--Selecione um nível--</option>
+                        <option value="easy">Fácil</option>
+                        <option selected value="normal">Normal</option>
+                        <option value="hard">Difícil</option>
+                        <option value="chuck">Chuck Norris</option>
+                    </select>
+                </div>                
+            </div>
+            <div class="col col-sm-6">
+                <div class="d-flex justify-content-center">
+                    <img src="imagens/game.png" alt="O jogo acabou" class="img-fluid">
+                </div>
+            </div>
+            <div class="col col-sm-3 d-flex align-self-center">
+                <div >
+                    
+                    <button onclick="irJogo()" class="btn btn-button btn-danger btn-lg">Ir para o jogo</button>
+                    <p class="mt-2" id="nivel-erro">Selecione um nível para jogar</p>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function irJogo(){
+            var _selec = document.getElementById('level')
+            if(_selec.value != ''){ 
+                sessionStorage.setItem('nivel',_selec.value)               
+                window.location.href='jogar.html'
+            } else {
+                document.getElementById('nivel-erro').style.visibility = 'visible'
+            }
+        }
+    </script>
+</body>
+</html>
