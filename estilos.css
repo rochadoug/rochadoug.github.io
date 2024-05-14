@@ -34,7 +34,7 @@ header h2{
 }
 
 #img-titulo{
-    opacity: 0.9;
+    opacity: 0.08;
 }
 
 .dropdown .dropdown-menu{
@@ -44,11 +44,10 @@ header h2{
 
 .dropdown-item{
     color: #FFF;
- 
 }
 .dropdown-item:hover{
-    color: #a12891; /*FF7F24  #07889B; */
-    background: #49b41f;   
+    color: #FFF;
+    background: #66B9BF;   
 }
 header #logo img{
     width: 200px;
@@ -66,9 +65,15 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#FF7F24;
+    color:#FFF;
+    text-shadow: 2px 2px 3px #000;
+    box-shadow: -1px -1px 3px;
 }
 
+ul.nav li.dropdown:hover div.dropdown-menu
+{ 
+    display: block; 
+}
 article{
     border-radius: 4px;
     overflow-y:scroll;
