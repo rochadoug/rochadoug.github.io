@@ -127,3 +127,150 @@ footer{
     border-radius: 2px;
     opacity: 0.9;
 }
+main h4{
+    margin: 10px;
+    color: rgb(24, 93, 139);
+    text-shadow: 2px 3px 3px;
+}
+.caixa_trindade1{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: rgb(129, 103, 29);
+    color:whitesmoke;
+    border: 1px solid white;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    margin-left: 60px;
+}
+.caixa_trindade2{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: rgb(56, 207, 194);
+    color:whitesmoke;
+    border: 1px solid white;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    margin-left: -5px;
+}
+.caixa_trindade3{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rgb(115, 53, 165);
+    color:whitesmoke;
+    border: 1px solid white;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    margin-left: -6px;
+}
+.unicismo{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 210px;
+    padding: 0;
+    background-color: rgb(204, 90, 45);
+    color:whitesmoke;
+    border: 1px solid white;
+}
+.uniContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.containeruni{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.unipai{
+    width: 50px;
+    color:whitesmoke;
+    border: 1px solid white;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(204, 90, 45);
+}
+.unifilho{
+    width: 50px;
+    color:whitesmoke;
+    border: 1px solid white;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(204, 90, 45);
+}
+.uniespirito{
+    width: 120px;
+    color:whitesmoke;
+    border: 1px solid white;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(204, 90, 45);
+}
+.forma1{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rgb(94, 165, 53);
+    color:whitesmoke;
+    align-content:flex-start;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding: 14px ;
+}
+.forma2{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rgb(31, 170, 73);
+    color:whitesmoke;
+    align-content: center;
+    text-align: center;
+    top: 70px;
+    left: 70px;
+    z-index: 3;
+    opacity: 0.8;
+    padding: 14px ;
+}
+.forma3{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0;
+    background-color: rgb(138, 196, 45);
+    color:whitesmoke;
+    align-content:center;
+    text-align: right;
+    top: 140px;
+    left: 140px;
+    padding: 14px ;
+}
+.iContainer{
+    position: relative;
+    margin-left: 200px;
+    padding: 150px;
+}
+.iforma{
+    position: absolute;
+    
+}
+p{
+    margin: 10px;
+    padding: 5px;
+    margin: 20px;
+    color: #212c8d;
+    text-shadow: 2px 1px 2px rgb(182, 147, 214);
+    
+}
